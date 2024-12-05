@@ -85,7 +85,7 @@ class MyApp extends App<{ isMobile: boolean }> {
           <meta property="og:description" content={process.env.SEO_DESCRIPTION} />
           <meta property="og:site_name" content={process.env.SEO_APPNAME} />
           <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icon192.png" />
+          <link rel="apple-touch-icon" href="/logo.png" />
           {((process.env.DNS_PREFETCH || []) as string[]).map((url) => (
             <link key={url} rel="dns-prefetch" href={url} />
           ))}

@@ -3,7 +3,7 @@
 ## 声明
 
 1. 请先阅读[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
-2. 如果希望参与独立编辑器开发，可以到[这个仓库](https://github.com/fantasticit/sailkit)参与
+2. 如果希望参与独立编辑器开发，可以到[这个仓库](https://github.com/ZhongxuYang/sailkit)参与
 3. 由于服务器成本和免费的 SSL 证书也没了，网站不定期会挂，敬请谅解
 
 ## 简介
@@ -15,11 +15,11 @@ Think 是一款开源知识管理工具。通过独立的知识库空间，结�
 - `nest.js`：服务端框架
 - `tiptap`：编辑器及文档协作
 
-可访问[云策文档帮助中心](https://think.codingit.cn/share/wiki/WoiR8N5uj4i7)，查看更多功能文档。
+可访问[蜂窝文档帮助中心](https://think.codingit.cn/share/wiki/WoiR8N5uj4i7)，查看更多功能文档。
 
 ## 链接
 
-[云策文档](https://think.codingit.cn)已经部署上线，可前往注册使用。
+[蜂窝文档](https://think.codingit.cn)已经部署上线，可前往注册使用。
 
 ## 预览
 
@@ -53,4 +53,4 @@ Think 是一款开源知识管理工具。通过独立的知识库空间，结�
 
 感谢所有为本项目作出贡献的同学！
 
-<a href="https://github.com/fantasticit/think/contributors"><img src="https://opencollective.com/think/contributors.svg?width=890" /></a>
+<a href="https://github.com/ZhongxuYang/think/contributors"><img src="https://opencollective.com/think/contributors.svg?width=890" /></a>

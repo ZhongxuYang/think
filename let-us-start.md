@@ -52,7 +52,7 @@ docker run --name redis-for-think-dev -p 6379:6379 -d redis --appendonly yes --r
 2. 安装依赖并运行
 
 ```bash
-git clone  https://github.com/fantasticit/think.git
+git clone  https://github.com/ZhongxuYang/think.git
 cd think
 pnpm install
 pnpm run dev
@@ -65,7 +65,7 @@ pnpm run dev
 **编译打包过程比较吃内存（大约 2G），小内存服务器建议本地构建后上传，可以在配置文件完成后，运行 build-output.sh，将打包后的 output 压缩发送到服务器后运行**。
 
 ```bash
-git clone  https://github.com/fantasticit/think.git
+git clone  https://github.com/ZhongxuYang/think.git
 cd think
 pnpm install # 安装依赖
 pnpm run build # 项目打包
@@ -94,7 +94,7 @@ pm2 save
 
 ```bash
 # 首次安装
-git clone https://github.com/fantasticit/think.git
+git clone https://github.com/ZhongxuYang/think.git
 cd think
 docker-compose up -d
 
@@ -115,7 +115,7 @@ docker-compose up -d
 
 ### nginx 配置参考
 
-无论以何种方式进行项目部署，项目运行成功后会在 3 个端口启动服务（默认 5001、5002、5003，具体由配置文件决定）。`nginx` 配置参考 <[think/nginx.conf.sample](https://github.com/fantasticit/think/blob/main/nginx.conf.sample)>。
+无论以何种方式进行项目部署，项目运行成功后会在 3 个端口启动服务（默认 5001、5002、5003，具体由配置文件决定）。`nginx` 配置参考 <[think/nginx.conf.sample](https://github.com/ZhongxuYang/think/blob/main/nginx.conf.sample)>。
 
 特别强调，在 `config` 文件夹的配置中 `client.siteUrl` 一定要配置正确，否则客户端可能无法正常运行。
 

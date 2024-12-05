@@ -9,7 +9,7 @@ export const Author = () => {
       <Text>
         <Space>
           Develop by
-          <Text link={{ href: 'https://github.com/fantasticit/think' }}>fantasticit</Text>
+          <Text link={{ href: 'https://github.com/ZhongxuYang/think' }}>Group 8</Text>
           with <IconLikeHeart style={{ color: 'red' }} />
         </Space>
       </Text>
